@@ -79,7 +79,7 @@ interface MemberNote {
 
 // Default member note
 const defaultMemberNote: MemberNote = {
-  title: 'BON TECH Member Registry',
+  title: 'BON TECH Member Registration',
   content: 'Welcome to the official BON TECH Hacker Community member registry. This platform tracks all verified members of our advanced AI and robotics network. Click on any member to view their detailed profile and progress analytics.',
   lastUpdated: new Date().toISOString(),
   updatedBy: 'BON JAC'
@@ -88,65 +88,35 @@ const defaultMemberNote: MemberNote = {
 // Sample members data
 const defaultMembers: Member[] = [
 { id:'Hacker-8412', username:'AmaogboEladeibi', phone:'+2348054722580', email:'hackman0045@gmail.com', progress:71, verified:true, active:'active', avatar:'/images/avatars/avatar-1.jpg', joinDate:'2024-01-15' },
-
 { id:'Hacker-5937', username:'IgweFavour', phone:'+2349076315654', email:'hackman0046@gmail.com', progress:63, verified:true, active:'pending', avatar:'/images/avatars/avatar-2.jpg', joinDate:'2024-01-18' },
-
 { id:'Hacker-7741', username:'EdorUsiwo', phone:'+2349068415832', email:'hackman0047@gmail.com', progress:55, verified:false, active:'active', avatar:'/images/avatars/avatar-3.jpg', joinDate:'2024-01-21' },
-
 { id:'Hacker-4685', username:'SolomonWoyins', phone:'+2349150709612', email:'hackman0048@gmail.com', progress:82, verified:true, active:'active', avatar:'/images/avatars/avatar-1.jpg', joinDate:'2024-01-23' },
-
 { id:'Hacker-9206', username:'EkadeObed', phone:'+2349055698478', email:'hackman0049@gmail.com', progress:48, verified:true, active:'failed', avatar:'/images/avatars/avatar-2.jpg', joinDate:'2024-01-26' },
-
 { id:'Hacker-3359', username:'OkoroGodstime', phone:'+2347066268747', email:'hackman0050@gmail.com', progress:77, verified:true, active:'active', avatar:'/images/avatars/avatar-3.jpg', joinDate:'2024-01-28' },
-
 { id:'Hacker-6184', username:'Afurehkess', phone:'+2349068192131', email:'hackman0051@gmail.com', progress:66, verified:false, active:'pending', avatar:'/images/avatars/avatar-1.jpg', joinDate:'2024-02-01' },
-
 { id:'Hacker-7523', username:'KingWinnie', phone:'+2349035736399', email:'hackman0053@gmail.com', progress:88, verified:true, active:'active', avatar:'/images/avatars/avatar-2.jpg', joinDate:'2024-02-03' },
-
 { id:'Hacker-1946', username:'Selerinto', phone:'+2348116699059', email:'hackman0054@gmail.com', progress:51, verified:true, active:'pending', avatar:'/images/avatars/avatar-3.jpg', joinDate:'2024-02-06' },
-
 { id:'Hacker-8075', username:'OloyeProgress', phone:'+2348140731063', email:'hackman0057@gmail.com', progress:72, verified:true, active:'active', avatar:'/images/avatars/avatar-1.jpg', joinDate:'2024-02-09' },
-
 { id:'Hacker-5598', username:'SimeonBrilliant', phone:'+2348147310889', email:'hackman0058@gmail.com', progress:69, verified:true, active:'active', avatar:'/images/avatars/avatar-2.jpg', joinDate:'2024-02-12' },
-
 { id:'Hacker-4762', username:'AkosoGoodluck', phone:'+2349014581509', email:'Hackman0059@gmail.com', progress:57, verified:false, active:'pending', avatar:'/images/avatars/avatar-3.jpg', joinDate:'2024-02-15' },
-
 { id:'Hacker-9034', username:'EssanSunday', phone:'+2347046640579', email:'Hackman0062@gmail.com', progress:74, verified:true, active:'active', avatar:'/images/avatars/avatar-1.jpg', joinDate:'2024-02-18' },
-
 { id:'Hacker-2667', username:'OtorFaith', phone:'+2349056724144', email:'Hackman0063@gmail.com', progress:61, verified:true, active:'active', avatar:'/images/avatars/avatar-2.jpg', joinDate:'2024-02-20' },
-
 { id:'Hacker-7315', username:'OwowoPrinceKarinate', phone:'+2349136702708', email:'Hackman0065@gmail.com', progress:80, verified:true, active:'active', avatar:'/images/avatars/avatar-3.jpg', joinDate:'2024-02-22' },
-
 { id:'Hacker-5821', username:'Benedict', phone:'+2347089206343', email:'anonymousfunction140@gmail.com', progress:46, verified:false, active:'pending', avatar:'/images/avatars/avatar-1.jpg', joinDate:'2024-02-24' },
-
 { id:'Hacker-1478', username:'MosesIdjederodeProsper', phone:'+2348133932765', email:'anonymousfunction141@gmail.com', progress:67, verified:true, active:'active', avatar:'/images/avatars/avatar-2.jpg', joinDate:'2024-02-27' },
-
 { id:'Hacker-6984', username:'SolomonTalent', phone:'+2349150709612', email:'anonymousfunction146@gmail.com', progress:59, verified:true, active:'pending', avatar:'/images/avatars/avatar-3.jpg', joinDate:'2024-03-01' },
-
 { id:'Hacker-4256', username:'PreciousGodwin', phone:'+2348128972241', email:'anonymousfunction1410@gmail.com', progress:83, verified:true, active:'active', avatar:'/images/avatars/avatar-1.jpg', joinDate:'2024-03-04' },
-
 { id:'Hacker-3602', username:'ObokaghraSuccessOnome', phone:'+2349119056733', email:'anonymousfunction148@gmail.com', progress:62, verified:true, active:'active', avatar:'/images/avatars/avatar-2.jpg', joinDate:'2024-03-07' },
-
 { id:'Hacker-9147', username:'ObiebiOgheneKobiruoOpeyemi', phone:'+2347014450625', email:'anonymousfunction142@gmail.com', progress:54, verified:false, active:'pending', avatar:'/images/avatars/avatar-3.jpg', joinDate:'2024-03-10' },
-
 { id:'Hacker-2886', username:'TonbraNathanEnoch', phone:'+2347089206343', email:'anonymousfunction143@gmail.com', progress:76, verified:true, active:'active', avatar:'/images/avatars/avatar-1.jpg', joinDate:'2024-03-13' },
-
 { id:'Hacker-6370', username:'DennisFrankPerebosigha', phone:'+2349050207503', email:'anonymousfunction144@gmail.com', progress:65, verified:true, active:'active', avatar:'/images/avatars/avatar-2.jpg', joinDate:'2024-03-15' },
-
 { id:'Hacker-8013', username:'OghenetshovweEfemena', phone:'+2348065513714', email:'anonymousfunction145@gmail.com', progress:50, verified:false, active:'pending', avatar:'/images/avatars/avatar-3.jpg', joinDate:'2024-03-17' },
-
 { id:'Hacker-5294', username:'DesmondRukevweAbraka', phone:'+2347070911147', email:'anonymousfunction147@gmail.com', progress:79, verified:true, active:'active', avatar:'/images/avatars/avatar-1.jpg', joinDate:'2024-03-19' },
-
 { id:'Hacker-6729', username:'PereyikurogheBassuo', phone:'+2349074468762', email:'hackman0045@gmail.com', progress:58, verified:true, active:'pending', avatar:'/images/avatars/avatar-2.jpg', joinDate:'2024-03-21' },
-
 { id:'Hacker-1459', username:'TonyIyohaPrecious', phone:'+2347067572325', email:'hackman0046@gmail.com', progress:73, verified:true, active:'active', avatar:'/images/avatars/avatar-3.jpg', joinDate:'2024-03-23' },
-
 { id:'Hacker-9581', username:'AmerekaGodstime', phone:'+2348162398075', email:'hackman0047@gmail.com', progress:68, verified:true, active:'active', avatar:'/images/avatars/avatar-1.jpg', joinDate:'2024-03-25' },
-
 { id:'Hacker-7346', username:'ImokhaiJeffery', phone:'+2348075906698', email:'hackman0048@gmail.com', progress:64, verified:true, active:'pending', avatar:'/images/avatars/avatar-2.jpg', joinDate:'2024-03-27' },
-
 { id:'Hacker-2165', username:'AkenomanieGabriel', phone:'+2348064237710', email:'hackman0049@gmail.com', progress:81, verified:true, active:'active', avatar:'/images/avatars/avatar-3.jpg', joinDate:'2024-03-29' },
-
 { id:'Hacker-4972', username:'BonJac', phone:'+2348122674150', email:'hackman0050@gmail.com', progress:60, verified:false, active:'pending', avatar:'/images/avatars/avatar-1.jpg', joinDate:'2024-04-01' }
 ]
 
